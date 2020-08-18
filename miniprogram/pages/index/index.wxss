@@ -1,0 +1,29 @@
+page {
+  background-color: #07c160;height: 100%;
+}
+.loading {
+  width: 240px;height: 158px;
+}
+.content {
+  height: 100%;display: flex;align-items: center;justify-content: center;
+}
+.text {
+  text-align: center;color: #07c160;position: absolute;top: 20px;width: 150px;background-color: #fff;line-height: 40px;border-radius: 4px;left: 50%;margin-left: -75px;
+}
+
+.btn {
+  font-size: 14px;text-align: center;margin-top: 20px;line-height: 40px;display: inline-block;color: #07c160;width: 120px;background-color: #fff;line-height: 40px;border-radius: 4px;
+}
+
+.button-hover {
+  background-color: #07c160;
+}
+
+canvas {
+  width: 300px;
+  height: 355px;
+  background: #fff;
+  margin: 20rpx auto;
+  box-shadow: 0 6rpx 6rpx rgba(0,0,0,.1);
+  overflow: hidden;
+}

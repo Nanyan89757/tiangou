@@ -1,0 +1,15 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/aa/index"
+    ],
+    "window": {
+        "backgroundColor": "#07c160",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#07c160",
+        "navigationBarTitleText": "新舔狗日记",
+        "navigationBarTextStyle": "white"
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+}

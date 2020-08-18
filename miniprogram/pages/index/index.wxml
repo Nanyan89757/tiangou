@@ -1,0 +1,12 @@
+<view class="content">
+  <view wx:if='{{loading}}'>
+    <image src="/images/b.gif" class="loading"></image>
+  </view>
+  <view hidden='{{loading}}'>
+    <view class="text" bindtap="getData">重新生成</view>
+    <canvas canvas-id="canvas"></canvas>
+    <view class="btn" bindtap="saveImage" style="margin-right:60px;">保存图片</view>
+    <view class="btn" bindtap="saveText">保存文字</view>
+    <button open-type="openSetting" wx:if="{{!ifAlbum}}">获取保存相册权限</button>
+  </view>
+</view>
